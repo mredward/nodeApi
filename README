@@ -1,13 +1,41 @@
+Simpe node.js api example using geddy and mongodb
+
+Installing mongodb 
+
+	Unix
+		-sudo aptitude install mongodb
+
+Mongode and geddy setup
+	
+	-npm install mongodb-wrapper
+
+   	-edit the /config/init.js file with your mongodb server configuration
+
+	NOTE: we already have the mongodb-wrapper in the repo
+	
+	link: http://net.tutsplus.com/tutorials/javascript-ajax/persisting-your-todo-list-with-mongodb-and-geddy/
+	
+
+########################################################################################################
+
+
 Ejemplo de un simple api con node.js, geddy y mongodb
 
 
 Instalacion de mongodb
 
-	-sudo aptitude install mongodb
+	Unix
+		-sudo aptitude install mongodb
 
-Configuracion de mongodb
+Configuracion de mongodb y geddy
 	
 	-npm install mongodb-wrapper
 
-	-link: http://net.tutsplus.com/tutorials/javascript-ajax/persisting-your-todo-list-with-mongodb-and-geddy/
+	-editar el archivo /config/init.js con la configuracion de tu servidor mongodb
+
+	NOTA: ya tenemos el mongodb-wrapper en nuestro repositorio
+
+	link: http://net.tutsplus.com/tutorials/javascript-ajax/persisting-your-todo-list-with-mongodb-and-geddy/
+	
+
 
