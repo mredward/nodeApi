@@ -1,0 +1,24 @@
+<div class="hero-unit">
+  <h2>Users list</h2>
+  <a href="/users/add" class="btn pull-right">Create a new user</a>
+</div>
+
+<% if (users.length) { %>
+  <% for (var i in users) { %>
+  <div class="row todo-item">
+    <div class="span8">
+      <h3>
+        <a href="/users/<%= users[i].id; %>"><%= users[i].login; %></a>
+      </h3>
+    </div>
+
+    <div class="span4">
+      <h3>
+        <i class="icon-list-alt"></i><%= users[i].name; %>
+      </h3>
+    </div>
+  </div>
+  <% } %>
+
+<% } %>
+         

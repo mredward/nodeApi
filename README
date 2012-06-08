@@ -1,0 +1,13 @@
+Ejemplo de un simple api con node.js, geddy y mongodb
+
+
+Instalacion de mongodb
+
+	-sudo aptitude install mongodb
+
+Configuracion de mongodb
+	
+	-npm install mongodb-wrapper
+
+	-link: http://net.tutsplus.com/tutorials/javascript-ajax/persisting-your-todo-list-with-mongodb-and-geddy/
+

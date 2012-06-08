@@ -1,0 +1,17 @@
+<div class="hero-unit">
+  <h2>Add a User:</h2>
+  <form action="/users" method="POST">
+    <% if (params.error) {
+        var name = 'name not long enough, must be 5 characters or more.'
+      } else {
+        var login = 'enter login'
+        var name = 'enter name'
+        var lastname = 'enter lastname'
+      }
+    %>
+    <input type="text" class="span6" placeholder="<%= login %>" name="login">
+    <input type="text" class="span6" placeholder="<%= name %>" name="name">
+    <input type="text" class="span6" placeholder="<%= lastname %>" name="lastname">
+    <input type="submit" class="btn btn-primary">
+  </form>
+</div>
